@@ -28,7 +28,7 @@ public class Client{
 
     //RTP variables:
     //----------------
-    DatagramPacket rcvdp; //UDP packet received from the server
+    DatagramPacket rcvdp; //UDP packet received from the servers
     DatagramSocket RTPsocket; //socket to be used to send and receive UDP packets
     static int RTP_RCV_PORT = 25000; //port where the client will receive the RTP packets
 
